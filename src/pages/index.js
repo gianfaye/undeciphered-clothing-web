@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Blinker } from '@next/font/google'
-import localFont from '@next/font/local'
+import { Blinker } from "next/font/google"
+import localFont from "next/font/local"
 import styles from '@/styles/Home.module.css'
 
 const blinker = Blinker({ subsets: ['latin'], weight: ['400'] })
