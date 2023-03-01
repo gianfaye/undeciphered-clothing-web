@@ -15,6 +15,6 @@ module.exports = {
   basePath: basePath,
   images: {
     loader: 'imgix',
-    path: 'undecipheredclothing.imgix.net',
+    path: 'https://undecipheredclothing.imgix.net',
   },
 }
