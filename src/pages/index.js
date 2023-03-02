@@ -20,8 +20,17 @@ export default function Home() {
     <>
       <Head>
         <title>UNDECIPHERED Clothing | Streetwear MNL PH</title>
-        <meta name="description" content="A streetwear brand in MNL PH" />
+        <meta name="description" content="A streetwear brand in Manila, Philippines" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:url" content="https://undeciphered.ph" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="UNDECIPHERED Clothing | Streetwear MNL PH" />
+        <meta name="twitter:card" content="A streetwear brand in Manila, Philippines" />
+        <meta
+          property="og:description"
+          content="A streetwear brand in Manila, Philippines"
+        />
+        <meta property="og:image" content='/site-preview.png' />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
