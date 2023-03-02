@@ -1,10 +1,9 @@
 import Head from 'next/head'
-// import Image from 'next/image'
 import { Blinker } from "next/font/google"
 import localFont from "next/font/local"
-import styles from '@/styles/Home.module.css'
-import {ImgixProvider} from "@/components/ImgixProvider";
-import {ImgixImage} from "@/components/ImgixImage";
+import styles from 'styles/Home.module.css'
+import {ImgixProvider} from "components/ImgixProvider";
+import {ImgixImage} from "components/ImgixImage";
 
 const blinker = Blinker({ subsets: ['latin'], weight: ['400'] })
 const blanka = localFont({
@@ -74,22 +73,6 @@ export default function Home() {
               priority
             />
           </ImgixProvider>
-          {/*<Image*/}
-          {/*  className={styles.logo}*/}
-          {/*  src="/undeciphered-clothing-logo.png"*/}
-          {/*  alt="Undeciphered Clothing Logo"*/}
-          {/*  width={500}*/}
-          {/*  height={140}*/}
-          {/*  priority*/}
-          {/*/>*/}
-          {/*<Image*/}
-          {/*  className={styles.logoMobile}*/}
-          {/*  src="/undeciphered-clothing-logo-square.png"*/}
-          {/*  alt="Undeciphered Clothing Logo"*/}
-          {/*  width={300}*/}
-          {/*  height={300}*/}
-          {/*  priority*/}
-          {/*/>*/}
         </div>
 
         <div className={styles.grid}>
