@@ -116,7 +116,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://shopee.ph/undecipheredclothing"
+            href="https://shopee.ph/undecipheredclothing?shopCollection=244885371"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -126,7 +126,7 @@ export default function Home() {
             </h2>
             <p className={blinker.className}>
               Speak without saying a word 😌 <br />
-              Coming Soon!
+              Grab all 5 designs!
             </p>
           </a>
 
