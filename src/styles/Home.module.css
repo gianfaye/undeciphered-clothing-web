@@ -257,6 +257,9 @@
       transparent 0%,
       rgb(var(--background-end-rgb)) 40%
     );
+    width: 100vw;
+    max-height: 120px;
+    bottom: 0;
   }
   .logo {
     display: none;

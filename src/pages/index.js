@@ -95,12 +95,13 @@ export default function Home() {
               CYBERPUNK
             </h2>
             <p className={blinker.className}>
-              Wear something Gibsonesque 🦾 <br /> Designs out now!
+              Wear something Gibsonesque 🦾 <br />
+              10 designs to choose from!
             </p>
           </a>
 
           <a
-            href="https://shopee.ph/undecipheredclothing"
+            href="https://shopee.ph/undecipheredclothing?shopCollection=244850338"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -109,7 +110,8 @@ export default function Home() {
               IMPACT THREADS
             </h2>
             <p className={blinker.className}>
-              Support a cause for every purchase 🤍 <br /> Coming Soon!
+              Support a cause for every purchase 🤍 <br />
+              Designs out now!
             </p>
           </a>
 
@@ -123,12 +125,13 @@ export default function Home() {
               MANIFESTO
             </h2>
             <p className={blinker.className}>
-              Speak without saying a word 😌 <br /> Coming Soon!
+              Speak without saying a word 😌 <br />
+              Coming Soon!
             </p>
           </a>
 
           <a
-            href="https://shopee.ph/undecipheredclothing"
+            href="https://shopee.ph/undecipheredclothing?shopCollection=244882766"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -137,7 +140,8 @@ export default function Home() {
               DARK MODE
             </h2>
             <p className={blinker.className}>
-              Because light attracts bugs 👩‍💻 <br /> Coming Soon!
+              Because light attracts bugs 👩‍💻 <br />
+              Collect all 10 designs!
             </p>
           </a>
         </div>
